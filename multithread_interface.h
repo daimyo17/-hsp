@@ -1,0 +1,4 @@
+/*
+	This file will describe the multithread interface implemened in the lab
+	used in the entire project
+*/
