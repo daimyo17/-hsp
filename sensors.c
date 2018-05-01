@@ -9,15 +9,16 @@
 
 extern ROOM_DATA data;
 
-TASK temp_sensor(ROOM_DATA data){
+TASK temp_sensor(){
+    // ceva de genu
+    _p_send(data[0].temp, controller);
+}
+
+TASK smoke_sensor() {
     
 }
 
-TASK smoke_sensor(ROOM_DATA data) {
-    
-}
-
-TASK pacient_temp_sensor(ROOM_DATA data) {
+TASK pacient_temp_sensor() {
     
 }
 
