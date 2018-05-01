@@ -4,3 +4,14 @@
 */
 
 #include "multithread_interface.h"
+#include "environment.c"
+
+extern ROOM_DATA data;
+
+TASK change_window_state(){
+    
+}
+
+TASK sound_alarm(){
+    
+}

@@ -4,3 +4,12 @@
 */
 
 #include "multithread_interface.h"
+#include "environment.c"
+
+extern ROOM_DATA data;
+
+TASK controller();
+
+TASK controller() {
+    
+}
